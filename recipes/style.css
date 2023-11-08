@@ -4,18 +4,28 @@
     font-family:'Times New Roman', Times, serif;
 }
 
-#tortilla{
-    background-color:red;
-    color:white;
-}
-
 .h2{
     font-size:25px;
     font-family:'Times New Roman', Times, serif;
     text-align:center;
 }
 
+#noodle{
+    color:white;
+    background-color:green;
+}
+
+.noodle{
+    color:white;
+    background-color:green;
+}
+
 .tortilla{
     color:white;
     background-color:red;
+}
+
+#tortilla{
+    background-color:red;
+    color:white;
 }
