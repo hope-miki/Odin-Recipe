@@ -1,0 +1,15 @@
+/*style.css*/
+
+#header{
+    text-align:center;
+    color:White;
+    background-color:green;
+    font-size:25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.class{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size:15px;
+}
