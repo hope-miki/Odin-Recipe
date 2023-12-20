@@ -1,7 +1,14 @@
-.title{
+.description{
     text-align:center;
-    font-size:40px;
-    font-family:'Times New Roman', Times, serif;
+}
+
+.title{
+    font-size: 5rem;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px red,
+                 2px 2px 1px red;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 .h2{
@@ -11,8 +18,7 @@
 }
 
 #noodle{
-    color:white;
-    background-color:green;
+    color:black;
 }
 
 .noodle{
@@ -21,8 +27,7 @@
 }
 
 #pancake{
-    color:white;
-    background-color:darkslateblue;
+    color:black;
 }
 
 .cupcakes{
@@ -36,6 +41,22 @@
 }
 
 #tortilla{
-    background-color:red;
-    color:white;
+    color:black;
+}
+
+.content{
+    border-width:5px;
+    border-color:black;
+    border-style:solid;
+    border-radius:10px;
+}
+
+.back{
+    width:150px;
+    text-align:center;
+    margin:20px;
+    margin-left:45%;
+    border-width:2px;
+    border-color:black;
+    border-style:solid;
 }
