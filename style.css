@@ -2,11 +2,77 @@
 
 #header{
     text-align:center;
-    color:White;
-    background-color:green;
-    font-size:25px;
+    color:black;
+    font-size:40px;
     font-family:'Times New Roman', Times, serif;
+    margin-top:50px;
 }
+
+.img{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+#Cheesecake{
+    object-fit: cover;
+    object-position: 60% 50%;
+
+    border-width:5px;
+    border-color:black;
+    border-style:solid;
+}
+
+#Noodles{
+    object-fit: cover;
+    object-position:50% 50%;
+
+    border-width:5px;
+    border-color:black;
+    border-style:solid;
+}
+
+.item img:hover{
+    transform: scale(1.05);
+    transition: all ease ;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(136, 219, 140);
+}
+
+p{
+    text-align:center;
+    font-weight:800;
+}
+
+#Tortilla{
+    object-fit: cover;
+    object-position:50% 50%;
+
+    border-width:5px;
+    border-color:black;
+    border-style:solid;
+}
+
+.list{
+    display:flex;
+    align-items:center;
+}
+.body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+h1 {
+    font-size: 5rem;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px red,
+                 2px 2px 1px red;
+    text-align: center;
+    letter-spacing: 2px;
+  }
 
 .class{
     color: black;
